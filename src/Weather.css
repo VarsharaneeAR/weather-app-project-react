@@ -1,0 +1,71 @@
+
+
+.Weather{
+    display: flexbox;
+    padding: 20px;
+    margin: 10px 5px 10px 15px;
+    background: linear-gradient(to bottom, #dde9eb  20%,  #dfe9f3 35%, #f2f2f2 65%);
+}
+
+.current {
+    display: block;
+    text-align: left;
+
+}
+
+.search{
+    display: block;
+    text-align: center;
+   
+}
+
+.location{
+    padding-left: 0.7em;
+    padding-bottom: 0.5em;
+    color: white;
+    display:block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+
+
+.current-day{
+    list-style: none;
+}
+.date{
+    text-transform: uppercase;
+}
+
+input{
+    color: #685454;
+    border: #dde9eb;
+    background-color: #dde9eb;
+    padding: 0.4em;
+}
+
+::placeholder{
+    color: #685454;
+    text-align: center;
+}
+
+.todays-forecast {
+    list-style: none;  
+}
+
+img{
+
+    display: inline-block;
+    align-items: center;
+    padding-left: 4.5em;
+}
+.temperature{
+    text-align: center;
+    padding: 5.5em ;
+}
+
+.location{
+    display: inline;
+}
