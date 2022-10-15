@@ -4,7 +4,7 @@
     display: flexbox;
     padding: 20px;
     margin: 10px 5px 10px 15px;
-    background: linear-gradient(to bottom, #dde9eb  20%,  #dfe9f3 35%, #f2f2f2 65%);
+    background: linear-gradient(to bottom, #f2f2f2   20%,  #dfe9f3 45%, #dde9eb  65%);
 }
 
 .current {
@@ -22,7 +22,7 @@
 .location{
     padding-left: 0.7em;
     padding-bottom: 0.5em;
-    color: white;
+    color: #bdc6cf  ;
     display:block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
@@ -40,14 +40,14 @@
 }
 
 input{
-    color: #685454;
-    border: #dde9eb;
-    background-color: #dde9eb;
+    color: #a4a9aed0 ;
+    border:#f2f2f2;
+    background-color: #f2f2f2;
     padding: 0.4em;
 }
 
 ::placeholder{
-    color: #685454;
+    color: #a4a9aed0 ;
     text-align: center;
 }
 
@@ -55,17 +55,21 @@ input{
     list-style: none;  
 }
 
-img{
-
-    display: inline-block;
-    align-items: center;
-    padding-left: 4.5em;
-}
 .temperature{
     text-align: center;
-    padding: 5.5em ;
+    padding-left:  0.3em;
+    font-size: 50px;
+    line-height: 10px;
+    display: inline-block;
 }
 
 .location{
     display: inline;
+}
+
+.weatherIcon{
+    padding-left: 1.9em;
+    padding-top: 0.3em;
+    display: inline-block;
+    
 }

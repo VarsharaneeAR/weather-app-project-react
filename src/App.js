@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
 
       
-      <Weather/>
+      <Weather defaultCity="Harare"/>
       <footer> 
         <p>
       This project is created by {""}<a href="https://www.shecodes.io/graduates/21150-varsharanee-roopun" target="_blank" className='link-secondary' rel="noreferrer">VarsharaneeAR </a>and {""}
