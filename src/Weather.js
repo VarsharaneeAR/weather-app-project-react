@@ -52,7 +52,7 @@ export default function Weather(props){
         <div className="Weather">
             <form onSubmit ={handleSubmit} className="search">
                <input type="search" placeholder="ENTER CITY" autoFocus="on" onChange={handleCityChange}/>
-               {""}< button type="submit" value="search" className="btn  btn-light btn-sm">SEARCH</button>
+               {""}< button type="submit" value="search" className="btn btn-light btn-sm">SEARCH</button>
             </form>
     
     <WeatherInfo data={weatherData}/>
