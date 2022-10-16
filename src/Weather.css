@@ -4,7 +4,8 @@
     display: flexbox;
     padding: 20px;
     margin: 10px 5px 10px 15px;
-    background: linear-gradient(to bottom, #f2f2f2   20%,  #dfe9f3 45%, #dde9eb  65%);
+    background: linear-gradient(99.6deg, black
+     10.6%,  rgba(112, 128, 152, 0.479) 32.9%,   #7f555772 72.8%, rgba(81, 90, 100, 0.717) 100.1%, #7f5557 90.8%,  rgba(0, 0, 0, 0.372) 50.6%);
 }
 
 .current {
@@ -34,34 +35,37 @@
 
 .current-day{
     list-style: none;
+    color: white;
 }
 .date{
     text-transform: uppercase;
 }
 
 input{
-    color: #a4a9aed0 ;
+    color:white;
     border:#f2f2f2;
-    background-color: #f2f2f2;
+    background-color:#808fa567;
     padding: 0.4em;
 }
 
 ::placeholder{
-    color: #a4a9aed0 ;
+    color: white;
     text-align: center;
 }
 
 .todays-forecast {
     list-style: none;  
+    color: white;
 }
 
 .WeatherTemperature{
     text-align: center;
     padding-left:  0.3em;
-    font-size: 50px;
-    line-height: 10px;
-    display: inline-block;
-}
+    display: inline;
+    color: white;
+    font-size: 45px;
+    }
+
 
 .location{
     display: inline;
@@ -69,12 +73,27 @@ input{
 
 .weatherIcon{
     padding-left: 1.9em;
-    padding-top: 0.3em;
+    padding-top: 2em;
     display: inline-block;
     
 }
 
 .units {
+    font-size: 15px;
 
-    font-size: 10px;
+}
+
+.Weather .unit {
+    color: rgb(33, 33, 33);
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    line-height: 1;
+    top: -34px;
+  }
+
+.btn.btn-light.btn-sm {
+  margin-left: 0.5em;
+    padding-left: 0.5em;
+    margin-bottom: 0.2em;
 }
